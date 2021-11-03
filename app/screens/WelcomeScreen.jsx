@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text, ImageBackground, StyleSheet, Image } from "react-native";
 
-const LoginScreen = () => {
+const WelcomeScreen = () => {
   return (
     <ImageBackground
       source={require("../assets/background.jpg")}
@@ -43,4 +43,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default LoginScreen;
+export default WelcomeScreen;
